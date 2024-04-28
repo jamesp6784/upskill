@@ -1,0 +1,11 @@
+{
+    "files.exclude": {
+        "**/*.meta": true
+    },
+    "files.associations": {
+        "*.uxml": "xml",
+        "*.uss": "css",
+        "*.tss": "css"
+    },
+    "dotnet.defaultSolution": "TestProject.sln"
+}
