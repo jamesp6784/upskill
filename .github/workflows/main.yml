@@ -31,3 +31,6 @@ jobs:
         with:
           name: Build-WebGL
           path: build/WebGL/WebGL
+      - uses: actions/deploy-pages@v4.0.5
+        with:
+          artifact_name: Build-WebGL
