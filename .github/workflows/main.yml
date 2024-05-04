@@ -1,0 +1,20 @@
+on:
+  push:
+    branches:    
+      - main
+
+jobs:
+  build:
+    name: Build Unity
+    runs-on: ubuntu-latest
+    steps:
+      - name: Unity - Builder
+        uses: game-ci/unity-builder@v4.2.3
+        with:
+          targetPlatform: WebGL
+      - name: Upload build
+        uses: actions/upload-artifact@v3
+        with:
+          name: Buildd
+          path: build
+ 
