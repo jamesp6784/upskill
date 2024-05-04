@@ -27,4 +27,11 @@ jobs:
         uses: actions/upload-artifact@v4.3.3
         with:
           name: Build-WebGL
-          path: build
+          path: build/WebGL/WebGL
+  publish:
+    name: Publish to Pages
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/deploy-pages@v4.0.5
+        with:
+          artifact_name: Build-WebGL
