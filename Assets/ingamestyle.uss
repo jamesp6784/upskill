@@ -1,0 +1,18 @@
+.header {
+    font-size: 40px;
+}
+
+.button {
+    font-size: 20px;
+    width: 100px;
+    height: 120px;
+    background-color: rgb(120, 93, 80);
+    margin-top: 0;
+    margin-right: 0;
+    margin-bottom: 0;
+    margin-left: 0;
+    padding-top: 0;
+    padding-right: 0;
+    padding-bottom: 0;
+    padding-left: 0;
+}

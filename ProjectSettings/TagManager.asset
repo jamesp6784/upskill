@@ -3,7 +3,15 @@
 --- !u!78 &1
 TagManager:
   serializedVersion: 2
-  tags: []
+  tags:
+  - Grid
+  - Master
+  - PlayerItem
+  - GridItemPreview
+  - Dart
+  - PlayerDamage
+  - Enemy
+  - Interface
   layers:
   - Default
   - TransparentFX
@@ -11,7 +19,7 @@ TagManager:
   - 
   - Water
   - UI
-  - 
+  - Enemy
   - 
   - 
   - 
@@ -40,4 +48,13 @@ TagManager:
   m_SortingLayers:
   - name: Default
     uniqueID: 0
+    locked: 0
+  - name: Foreground
+    uniqueID: 4241663833
+    locked: 0
+  - name: Grid
+    uniqueID: 2695314607
+    locked: 0
+  - name: Background
+    uniqueID: 637944379
     locked: 0
