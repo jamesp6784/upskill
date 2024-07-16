@@ -27,6 +27,7 @@ jobs:
       - uses: game-ci/unity-builder@v4.2.3
         with:
           targetPlatform: WebGL
+          allowDirtyBuild: true
       - uses: actions/upload-pages-artifact@v3.0.1
         with:
           name: Build-WebGL
